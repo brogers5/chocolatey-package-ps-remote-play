@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>ps-remote-play</id>
+    <title>PlayStation Remote Play</title>
+    <version>4.0.0</version>
+    <authors>Sony</authors>
+    <owners>MANICX100</owners>
+    <summary>Remotely connect and control your PS4/PS5 System.</summary>
+    <description>
+With Remote Play, you can control your PlayStation® console remotely wherever you have a high-speed internet connection.
+Using the  [PS Remote Play] app, you can control your PlayStation®5 console or PlayStation®4 console from a device in a different location.
+</description>
+    <projectUrl>https://remoteplay.dl.playstation.net/remoteplay/</projectUrl>
+    <iconUrl>https://remoteplay.dl.playstation.net/remoteplay/images/icon-remote-play--normal.svg</iconUrl>
+    <tags>ps4 ps5 playstation remote gaming</tags>
+    <licenseUrl>https://remoteplay.dl.playstation.net/remoteplay/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://remoteplay.dl.playstation.net/remoteplay/lang/gb/)
+    </releaseNotes>
+	<dependencies>
+      <dependency id="dotnetfx" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

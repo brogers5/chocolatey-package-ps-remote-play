@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>lagrange</id>
+    <title>Lagrange - Gemini GUI Client</title>
+    <version>1.1.0</version>
+    <authors>Skyjake</authors>
+    <owners>MANICX100</owners>
+    <summary>Lagrange is a desktop GUI client for browsing Geminispace.</summary>
+    <description>
+Lagrange is a desktop GUI client for browsing Geminispace. It offers modern conveniences familiar from web browsers, such as smooth scrolling, inline image viewing, multiple tabs, visual themes, Unicode fonts, bookmarks, history, and page outlines.
+
+Like Gemini, Lagrange has been designed with minimalism in mind. It depends on a small number of essential libraries. It is written in C and uses SDL for hardware-accelerated graphics. OpenSSL is used for secure communications.
+</description>
+    <projectUrl>https://gmi.skyjake.fi/lagrange/</projectUrl>
+    <iconUrl>https://remoteplay.dl.playstation.net/remoteplay/images/icon-remote-play--normal.svg</iconUrl>
+    <tags>gemini gui Lagrange</tags>
+    <copyright>Skyjake</copyright>
+    <licenseUrl>https://gmi.skyjake.fi/lagrange/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://gmi.skyjake.fi/lagrange/)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
