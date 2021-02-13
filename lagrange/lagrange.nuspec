@@ -3,7 +3,7 @@
   <metadata>
     <id>lagrange</id>
     <title>Lagrange - Gemini GUI Client</title>
-    <version>1.1.0</version>
+    <version>1.1.2</version>
     <authors>Skyjake</authors>
     <owners>MANICX100</owners>
     <summary>Lagrange is a desktop GUI client for browsing Geminispace.</summary>

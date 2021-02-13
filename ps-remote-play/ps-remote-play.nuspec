@@ -20,9 +20,6 @@ Using the  [PS Remote Play] app, you can control your PlayStation®5 console or 
 #### Program
 * [News](https://remoteplay.dl.playstation.net/remoteplay/lang/gb/)
     </releaseNotes>
-	<dependencies>
-      <dependency id="dotnetfx" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
