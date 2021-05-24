@@ -14,8 +14,6 @@ Using the  [PS Remote Play] app, you can control your PlayStation®5 console or 
     <projectUrl>https://remoteplay.dl.playstation.net/remoteplay/</projectUrl>
     <iconUrl>https://remoteplay.dl.playstation.net/remoteplay/images/icon-remote-play--normal.svg</iconUrl>
     <tags>ps4 ps5 playstation remote gaming</tags>
-    <licenseUrl>https://remoteplay.dl.playstation.net/remoteplay/</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
 * [News](https://remoteplay.dl.playstation.net/remoteplay/lang/gb/)
