@@ -3,7 +3,7 @@ $installerType = 'exe'
 $silentArgs = '/S /v/qn'
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url = 'https://remoteplay.dl.playstation.net/remoteplay/module/win/RemotePlayInstaller.exe'
-$checksum = '9189BBFC8AC173BDD5FE39AD723CA206A8DD788CBCB166F9AE2887A51E7C30EA'
+$checksum = '3A29E633AFCB08D170A33BD9126C35A7A3A931BD69B7CB6FE614CEF9ABA000A0'
 $checksumType = 'sha256'
 $validExitCodes = @(0)
  
