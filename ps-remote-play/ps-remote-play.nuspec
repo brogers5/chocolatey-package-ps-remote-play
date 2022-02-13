@@ -12,6 +12,7 @@ With Remote Play, you can control your PlayStation® console remotely wherever y
 Using the  [PS Remote Play] app, you can control your PlayStation®5 console or PlayStation®4 console from a device in a different location.
 </description>
     <projectUrl>https://remoteplay.dl.playstation.net/remoteplay/</projectUrl>
+    <packageSourceUrl>https://github.com/MANICX100/chocolatey/tree/master/ps-remote-play</packageSourceUrl>
     <iconUrl>https://remoteplay.dl.playstation.net/remoteplay/images/icon-remote-play--normal.svg</iconUrl>
     <tags>ps4 ps5 playstation remote gaming</tags>
     <releaseNotes>
