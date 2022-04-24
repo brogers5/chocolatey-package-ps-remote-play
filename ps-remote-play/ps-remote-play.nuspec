@@ -25,6 +25,7 @@ Using the  [PS Remote Play] app, you can control your PlayStation®5 console or 
       <dependency id="webview2-runtime" version="100.0.1185.36" />
       <dependency id="vcredist2013" version="12.0.30501.0" />
       <dependency id="vcredist140" version="14.23.27820" />
+      <dependency id="chocolatey-os-dependency.extension" version="0.0.1" />
     </dependencies>
   </metadata>
   <files>
