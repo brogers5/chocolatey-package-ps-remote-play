@@ -11,6 +11,7 @@ function global:au_AfterUpdate ($Package)  {
 function global:au_SearchReplace {
     @{
         'tools\chocolateyinstall.ps1' = @{
+            "(^[$]url\s*=\s*)('.*')" = "`$1'$($Latest.Url32)'"
             "(^[$]checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
         }
     }
@@ -25,7 +26,7 @@ function global:au_GetLatest {
     Remove-Item -Path $tempFile -Force
 
     return @{ 
-        Url32 = $downloadUrl;
+        Url32   = "https://remoteplay.dl.playstation.net/remoteplay/module/win/RemotePlayInstaller_$($softwareVersion)_Win32.msi"
         Version = $softwareVersion
     }
 }
