@@ -1,26 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ps-remote-play</id>
-    <title>PlayStation Remote Play</title>
-    <version>6.5.0.08180</version>
-    <authors>Sony</authors>
-    <owners>MANICX100</owners>
-    <summary>Remotely connect and control your PS4/PS5 System.</summary>
-    <description>
-With Remote Play, you can control your PlayStation® console remotely wherever you have a high-speed internet connection.
-Using the  [PS Remote Play] app, you can control your PlayStation®5 console or PlayStation®4 console from a device in a different location.
-</description>
+    <version>7.5.0.8061</version>
+    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-ps-remote-play/tree/v7.5.0.8061</packageSourceUrl>
+    <owners>MANICX100, sublym0nal</owners>
+    <title>PS Remote Play</title>
+    <authors>Sony Interactive Entertainment Inc.</authors>
     <projectUrl>https://remoteplay.dl.playstation.net/remoteplay/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-ps-remote-play@11f5a086de23a08ffa153e7efb8528445fca28c4/ps-remote-play.png</iconUrl>
+    <copyright>© 2024 Sony Interactive Entertainment Inc. All Rights Reserved.</copyright>
     <licenseUrl>https://doc.dl.playstation.net/doc/pc-app-eula/index.html</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <packageSourceUrl>https://github.com/MANICX100/chocolatey/tree/master/ps-remote-play</packageSourceUrl>
-    <iconUrl>https://remoteplay.dl.playstation.net/remoteplay/images/icon-remote-play--normal.svg</iconUrl>
-    <tags>ps4 ps5 playstation remote gaming</tags>
-    <releaseNotes>
-#### Program
-* [News](https://remoteplay.dl.playstation.net/remoteplay/lang/gb/)
-    </releaseNotes>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Project is closed-source</projectSourceUrl>-->
+    <!--<docsUrl>Documentation is limited to device-specific step-by-step guides</docsUrl>-->
+    <!-- <mailingListUrl>No official user forum or mailing list is available</mailingListUrl> -->
+    <!--<bugTrackerUrl>No public-facing issue tracker is available</bugTrackerUrl>-->
+    <tags>ps4 ps5 playstation remote gaming freeware cross-platform</tags>
+    <summary>Remotely connect to and control your PS4/PS5 System.</summary>
+    <description><![CDATA[## PS Remote Play
+
+PS Remote Play lets you stream and play your PS4 and PS5 games, switch between games, view your console home screen and browse the console’s menus on any compatible device that’s connected to your broadband network or using your mobile data.
+
+That means you can start playing with your PlayStation console connected to a TV, pause your game and access the PS Remote Play app on your chosen device, and your game will be there, ready to keep playing from exactly where you left it. Or you can switch on your PlayStation console and start playing directly from the app, with no need to ever switch on your TV.
+
+A PS4 or PS5 console is required to stream your games to another devices.
+
+Desktop or laptops with the PS Remote Play app installed can play Remote Play games using a DUALSHOCK 4, DualSense or DualSense Edge wireless controller.
+
+In games that support hardware keyboards, users have the ability to operate the game using keyboard keys, as if they are using a hardware keyboard connected directly to their PS4 or PS5 console.
+
+![PS Remote Play Screenshot](https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-ps-remote-play@4fd253252e561c023ec4499a04b19af7f18df259/Screenshot.png)
+]]></description>
+    <releaseNotes>https://remoteplay.dl.playstation.net/remoteplay/lang/en/#cr-index-027</releaseNotes>
     <dependencies>
       <dependency id="webview2-runtime" version="100.0.1185.36" />
       <dependency id="vcredist2013" version="12.0.30501.0" />
