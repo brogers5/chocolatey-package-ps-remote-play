@@ -1,8 +1,8 @@
 Import-Module au
 
 function global:au_BeforeUpdate ($Package) {
-    $Latest.ChecksumType32 = 'sha256'
-    $Latest.Checksum32 = Get-RemoteChecksum -Url $Latest.Url32 -Algorithm SHA256
+    $Latest.ChecksumType64 = 'sha256'
+    $Latest.Checksum64 = Get-RemoteChecksum -Url $Latest.Url64 -Algorithm SHA256
 
     Set-DescriptionFromReadme -Package $Package -ReadmePath '.\DESCRIPTION.md'
 }
@@ -10,9 +10,9 @@ function global:au_BeforeUpdate ($Package) {
 function global:au_SearchReplace {
     @{
         'tools\chocolateyinstall.ps1'   = @{
-            "(^[$]?\s*url\s*=\s*)('.*')"          = "`$1'$($Latest.Url32)'"
-            "(^[$]?\s*checksum\s*=\s*)('.*')"     = "`$1'$($Latest.Checksum32)'"
-            "(^[$]?\s*checksumType\s*=\s*)('.*')" = "`$1'$($Latest.ChecksumType32)'"
+            "(^[$]?\s*url64bit\s*=\s*)('.*')"       = "`$1'$($Latest.Url64)'"
+            "(^[$]?\s*checksum64\s*=\s*)('.*')"     = "`$1'$($Latest.Checksum64)'"
+            "(^[$]?\s*checksumType64\s*=\s*)('.*')" = "`$1'$($Latest.ChecksumType64)'"
         }
         "$($Latest.PackageName).nuspec" = @{
             '(<packageSourceUrl>)[^<]*(</packageSourceUrl>)' = "`$1https://github.com/brogers5/chocolatey-package-$($Latest.PackageName)/tree/v$($Latest.Version)`$2"
@@ -30,7 +30,7 @@ function global:au_GetLatest {
     $semVerVersion = [version] $softwareVersion
 
     return @{
-        Url32   = "https://remoteplay.dl.playstation.net/remoteplay/module/win/RemotePlayInstaller_$($softwareVersion)_Win32.msi"
+        Url64   = "https://remoteplay.dl.playstation.net/remoteplay/module/win/RemotePlayInstaller_$($softwareVersion)_Win32.msi"
         Version = $semVerVersion    #This may change if building a package fix version
     }
 }
