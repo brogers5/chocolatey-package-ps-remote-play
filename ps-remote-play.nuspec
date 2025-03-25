@@ -3,14 +3,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ps-remote-play</id>
-    <version>7.5.0.8061</version>
-    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-ps-remote-play/tree/v7.5.0.8061</packageSourceUrl>
+    <version>8.0.0.14120</version>
+    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-ps-remote-play/tree/v8.0.0.14120</packageSourceUrl>
     <owners>MANICX100, sublym0nal</owners>
     <title>PS Remote Play</title>
     <authors>Sony Interactive Entertainment Inc.</authors>
     <projectUrl>https://remoteplay.dl.playstation.net/remoteplay/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-ps-remote-play@11f5a086de23a08ffa153e7efb8528445fca28c4/ps-remote-play.png</iconUrl>
-    <copyright>© 2024 Sony Interactive Entertainment Inc. All Rights Reserved.</copyright>
+    <copyright>© 2025 Sony Interactive Entertainment Inc. All Rights Reserved.</copyright>
     <licenseUrl>https://doc.dl.playstation.net/doc/pc-app-eula/index.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Project is closed-source</projectSourceUrl>-->
@@ -25,9 +25,9 @@ PS Remote Play lets you stream and play your PS4 and PS5 games, switch between g
 
 That means you can start playing with your PlayStation console connected to a TV, pause your game and access the PS Remote Play app on your chosen device, and your game will be there, ready to keep playing from exactly where you left it. Or you can switch on your PlayStation console and start playing directly from the app, with no need to ever switch on your TV.
 
-A PS4 or PS5 console is required to stream your games to another devices.
+A PS4 or PS5 console is required to stream your games to another device.
 
-Desktop or laptops with the PS Remote Play app installed can play Remote Play games using a DUALSHOCK 4, DualSense or DualSense Edge wireless controller.
+Desktops or laptops with the PS Remote Play app installed can play Remote Play games using a DUALSHOCK 4, DualSense or DualSense Edge wireless controller.
 
 In games that support hardware keyboards, users have the ability to operate the game using keyboard keys, as if they are using a hardware keyboard connected directly to their PS4 or PS5 console.
 
